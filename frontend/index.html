@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧸 Emoji Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background" id="background"></div>
+        
+        <div class="header">
+            <h1> Emoji Translator</h1>
+        </div>
+
+        <div class="teddy-container">
+            <div class="teddy" id="teddy">
+                <div class="teddy-face">🧸</div>
+                <div class="board" id="board">
+                    <input 
+                        type="text" 
+                        id="textInput" 
+                        placeholder="Enter your sentence..." 
+                        maxlength="100"
+                    >
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="translateBtn">✨ Translate</button>
+            <button id="clearBtn">🗑️ Clear</button>
+        </div>
+
+        <div class="result-container" id="resultContainer">
+            <div class="result-box">
+                <h3>Emoji Translation:</h3>
+                <p id="translatedText"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
